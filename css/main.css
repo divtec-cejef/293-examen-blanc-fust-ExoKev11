@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-.page-index{
-    height: 1.5em;
-    font-size: 1.3rem;
-    max-width: 800px;
-}
-
 html,
 body {
     font-family: "Segoe UI", Arial, sans-serif;
@@ -27,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
-
+    height: auto;
 }
 
 
@@ -135,4 +129,5 @@ footer {
     margin-bottom: 40px;
     text-align: center;
     text-transform: uppercase;
+    color: white;
 }
