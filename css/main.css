@@ -95,13 +95,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
 }
 
 .produits li {
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
     border: #151515 2px solid;
-    width: 50%;
+    width: 40%;
 }
 
 .produits li:hover {
@@ -126,9 +127,12 @@ main {
     color: #ff8800
 }
 
+/************ FOOTER *************/
 
 footer {
     background-color: #151515;
     margin-top: 20px;
     margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
